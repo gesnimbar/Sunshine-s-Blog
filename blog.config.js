@@ -54,8 +54,9 @@ const BLOG = {
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: 'engura.alle@gmail.com',
   CONTACT_WEIBO: '',
+  CONTACT_PORTFOLIO: 'https://gesnimbar.studio.site/',
   CONTACT_TWITTER: 'https://twitter.com/gesnimbar',
-  CONTACT_GITHUB: 'https://github.com/gesnimbar',
+  CONTACT_GITHUB: '',
   CONTACT_TELEGRAM: '',
 
   // 鼠标点击烟花特效
