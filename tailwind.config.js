@@ -18,6 +18,11 @@ module.exports = {
           'background-gray': '#E9EEEC',
           'black-gray': '#1D2C44',
           'light-gray': '#1D2C44'
+        },
+        sunshine: {
+          'background-gray': '#E9EEEC',
+          'black-gray': '#1D2C44',
+          'light-gray': '#1D2C44'
         }
       }
     }

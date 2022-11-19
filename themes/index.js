@@ -6,6 +6,7 @@ import * as fukasawa from './fukasawa'
 import * as hexo from './hexo'
 import * as medium from './medium'
 import * as example from './example'
+import * as sunshine from './sunshine'
 
-export const ALL_THEME = ['hexo', 'next', 'medium', 'fukasawa', 'example']
-export { hexo, next, medium, fukasawa, example }
+export const ALL_THEME = ['hexo', 'next', 'medium', 'fukasawa', 'example','sunshine']
+export { hexo, next, medium, fukasawa, example, sunshine }
