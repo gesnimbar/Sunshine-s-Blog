@@ -15,7 +15,8 @@ const ValineComponent = (props) => {
       recordIP: true,
       placeholder: BLOG.COMMENT_VALINE_PLACEHOLDER,
       serverURLs: BLOG.COMMENT_VALINE_SERVER_URLS,
-      visitor: true
+      visitor: true,
+      lang:'en'
     })
     if (!valine) {
       console.error('valine错误')
