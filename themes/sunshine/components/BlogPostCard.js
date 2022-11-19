@@ -2,13 +2,13 @@ import BLOG from '@/blog.config'
 import Link from 'next/link'
 import React from 'react'
 import TagItemMini from './TagItemMini'
-import CONFIG_HEXO from '../config_sunshine'
+import CONFIG_SUNSHINE from '../config_sunshine'
 import NotionPage from '@/components/NotionPage'
 
 const BlogPostCard = ({ post, showSummary }) => {
-  const showPreview = CONFIG_HEXO.POST_LIST_PREVIEW && post.blockMap
+  const showPreview = CONFIG_SUNSHINE.POST_LIST_PREVIEW && post.blockMap
   return (
-    <div className="w-full shadow-sm hover:shadow border dark:border-black rounded-xl bg-white dark:bg-hexo-black-gray duration-300">
+    <div className="w-full shadow-sm hover:shadow border dark:border-black rounded-xl bg-white dark:bg-sunshine-black-gray duration-300">
       <div
         key={post.id}
         className="animate__animated animate__fadeIn flex flex-col-reverse lg:flex-row justify-between duration-300"
@@ -78,7 +78,7 @@ const BlogPostCard = ({ post, showSummary }) => {
           </div>
         </div>
 
-        {CONFIG_HEXO.POST_LIST_COVER && !showPreview && post?.page_cover && !post.results && (
+        {CONFIG_SUNSHINE.POST_LIST_COVER && !showPreview && post?.page_cover && !post.results && (
           <Link href={`${BLOG.SUB_PATH}/${post.slug}`} passHref>
             <div className="flex w-full relative duration-200 rounded-t-xl lg:rounded-r-xl lg:rounded-t-none cursor-pointer transform overflow-hidden">
               {/* eslint-disable-next-line @next/next/no-img-element */}

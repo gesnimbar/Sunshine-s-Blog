@@ -5,12 +5,12 @@ import TagGroups from './TagGroups'
 import Catalog from './Catalog'
 import { InfoCard } from './InfoCard'
 import { AnalyticsCard } from './AnalyticsCard'
-import CONFIG_HEXO from '../config_sunshine'
-import HexoRecentComments from './HexoRecentComments'
+import CONFIG_SUNSHINE from '../config_sunshine'
+import sunshineRecentComments from './sunshineRecentComments'
 import BLOG from '@/blog.config'
 
 /**
- * Hexo主题右侧栏
+ * sunshine主题右侧栏
  * @param {*} props
  * @returns
  */
@@ -23,7 +23,7 @@ export default function SideRight(props) {
   return (
     <div className={'space-y-4 lg:w-80 lg:pt-0 px-2 pt-4'}>
       <InfoCard {...props} />
-      {CONFIG_HEXO.WIDGET_ANALYTICS && <AnalyticsCard {...props} />}
+      {CONFIG_SUNSHINE.WIDGET_ANALYTICS && <AnalyticsCard {...props} />}
 
       {showCategory && (
         <Card>
@@ -41,11 +41,11 @@ export default function SideRight(props) {
           <TagGroups tags={tags} currentTag={currentTag} />
         </Card>
       )}
-      {CONFIG_HEXO.WIDGET_LATEST_POSTS && latestPosts && latestPosts.length > 0 && <Card>
+      {CONFIG_SUNSHINE.WIDGET_LATEST_POSTS && latestPosts && latestPosts.length > 0 && <Card>
         <LatestPostsGroup {...props} />
       </Card>}
 
-      {BLOG.COMMENT_WALINE_SERVER_URL && BLOG.COMMENT_WALINE_RECENT && <HexoRecentComments/>}
+      {BLOG.COMMENT_WALINE_SERVER_URL && BLOG.COMMENT_WALINE_RECENT && <sunshineRecentComments/>}
 
       <div className='sticky top-20'>
         {post && post.toc && post.toc.length > 1 && <Card>

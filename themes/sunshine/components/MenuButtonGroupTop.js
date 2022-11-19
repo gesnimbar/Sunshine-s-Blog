@@ -1,17 +1,17 @@
 import React from 'react'
 import Link from 'next/link'
 import { useGlobal } from '@/lib/global'
-import CONFIG_HEXO from '../config_sunshine'
+import CONFIG_SUNSHINE from '../config_sunshine'
 
 const MenuButtonGroupTop = (props) => {
   const { customNav } = props
   const { locale } = useGlobal()
 
   let links = [
-    { icon: 'fas fa-search', name: locale.NAV.SEARCH, to: '/search', show: CONFIG_HEXO.MENU_SEARCH },
-    { icon: 'fas fa-archive', name: locale.NAV.ARCHIVE, to: '/archive', show: CONFIG_HEXO.MENU_ARCHIVE }
-    // { icon: 'fas fa-folder', name: locale.COMMON.CATEGORY, to: '/category', show: CONFIG_HEXO.MENU_CATEGORY },
-    // { icon: 'fas fa-tag', name: locale.COMMON.TAGS, to: '/tag', show: CONFIG_HEXO.MENU_TAG }
+    { icon: 'fas fa-search', name: locale.NAV.SEARCH, to: '/search', show: CONFIG_SUNSHINE.MENU_SEARCH },
+    { icon: 'fas fa-archive', name: locale.NAV.ARCHIVE, to: '/archive', show: CONFIG_SUNSHINE.MENU_ARCHIVE }
+    // { icon: 'fas fa-folder', name: locale.COMMON.CATEGORY, to: '/category', show: CONFIG_SUNSHINE.MENU_CATEGORY },
+    // { icon: 'fas fa-tag', name: locale.COMMON.TAGS, to: '/tag', show: CONFIG_SUNSHINE.MENU_TAG }
   ]
 
   if (customNav) {

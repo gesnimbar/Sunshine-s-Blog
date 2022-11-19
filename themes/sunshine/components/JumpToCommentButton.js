@@ -1,5 +1,5 @@
 import React from 'react'
-import CONFIG_HEXO from '../config_sunshine'
+import CONFIG_SUNSHINE from '../config_sunshine'
 
 /**
  * 跳转到评论区
@@ -7,7 +7,7 @@ import CONFIG_HEXO from '../config_sunshine'
  * @constructor
  */
 const JumpToCommentButton = () => {
-  if (!CONFIG_HEXO.WIDGET_TO_COMMENT) {
+  if (!CONFIG_SUNSHINE.WIDGET_TO_COMMENT) {
     return <></>
   }
 

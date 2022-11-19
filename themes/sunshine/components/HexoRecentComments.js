@@ -1,7 +1,7 @@
 import React from 'react'
 import { RecentComments } from '@waline/client'
 import BLOG from '@/blog.config'
-import Card from '@/themes/hexo/components/Card'
+import Card from '@/themes/sunshine/components/Card'
 import { useGlobal } from '@/lib/global'
 import Link from 'next/link'
 
@@ -10,7 +10,7 @@ import Link from 'next/link'
  * @param {*} props
  * @returns
  */
-const HexoRecentComments = (props) => {
+const sunshineRecentComments = (props) => {
   const [comments, updateComments] = React.useState([])
   const { locale } = useGlobal()
   const [onLoading, changeLoading] = React.useState(true)
@@ -40,4 +40,4 @@ const HexoRecentComments = (props) => {
   </Card>
 }
 
-export default HexoRecentComments
+export default sunshineRecentComments

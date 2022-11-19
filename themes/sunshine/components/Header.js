@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import Typed from 'typed.js'
-import CONFIG_HEXO from '../config_sunshine'
+import CONFIG_SUNSHINE from '../config_sunshine'
 import NavButtonGroup from './NavButtonGroup'
 
 let wrapperTop = 0
@@ -20,7 +20,7 @@ const Header = props => {
     if (!typed && window && document.getElementById('typed')) {
       changeType(
         new Typed('#typed', {
-          strings: CONFIG_HEXO.HOME_BANNER_GREETINGS,
+          strings: CONFIG_SUNSHINE.HOME_BANNER_GREETINGS,
           typeSpeed: 200,
           backSpeed: 100,
           backDelay: 400,
@@ -85,7 +85,7 @@ const Header = props => {
         </div>
 
         {/* 首页导航插件 */}
-        { CONFIG_HEXO.HOME_NAV_BUTTONS && <NavButtonGroup {...props}/>}
+        { CONFIG_SUNSHINE.HOME_NAV_BUTTONS && <NavButtonGroup {...props}/>}
 
       </div>
       <div

@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { useGlobal } from '@/lib/global'
-import CONFIG_HEXO from '../config_sunshine'
+import CONFIG_SUNSHINE from '../config_sunshine'
 
 const MenuGroupCard = (props) => {
   const { postCount, categories, tags } = props
@@ -11,9 +11,9 @@ const MenuGroupCard = (props) => {
   const tagSlot = <div className='text-center'>{tags?.length}</div>
 
   const links = [
-    { name: locale.COMMON.ARTICLE, to: '/archive', slot: archiveSlot, show: CONFIG_HEXO.MENU_ARCHIVE },
-    { name: locale.COMMON.CATEGORY, to: '/category', slot: categorySlot, show: CONFIG_HEXO.MENU_CATEGORY },
-    { name: locale.COMMON.TAGS, to: '/tag', slot: tagSlot, show: CONFIG_HEXO.MENU_TAG }
+    { name: locale.COMMON.ARTICLE, to: '/archive', slot: archiveSlot, show: CONFIG_SUNSHINE.MENU_ARCHIVE },
+    { name: locale.COMMON.CATEGORY, to: '/category', slot: categorySlot, show: CONFIG_SUNSHINE.MENU_CATEGORY },
+    { name: locale.COMMON.TAGS, to: '/tag', slot: tagSlot, show: CONFIG_SUNSHINE.MENU_TAG }
   ]
 
   return <nav id='nav' className='leading-8 flex justify-center   w-full'>

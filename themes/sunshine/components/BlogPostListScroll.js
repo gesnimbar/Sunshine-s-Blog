@@ -4,7 +4,7 @@ import BlogPostListEmpty from './BlogPostListEmpty'
 import { useGlobal } from '@/lib/global'
 import throttle from 'lodash.throttle'
 import React from 'react'
-import CONFIG_HEXO from '../config_sunshine'
+import CONFIG_SUNSHINE from '../config_sunshine'
 import { getListByPage } from '@/lib/utils'
 
 /**
@@ -14,7 +14,7 @@ import { getListByPage } from '@/lib/utils'
  * @returns {JSX.Element}
  * @constructor
  */
-const BlogPostListScroll = ({ posts = [], currentSearch, showSummary = CONFIG_HEXO.POST_LIST_SUMMARY }) => {
+const BlogPostListScroll = ({ posts = [], currentSearch, showSummary = CONFIG_SUNSHINE.POST_LIST_SUMMARY }) => {
   const postsPerPage = BLOG.POSTS_PER_PAGE
   const [page, updatePage] = React.useState(1)
   const postsToShow = getListByPage(posts, page, postsPerPage)

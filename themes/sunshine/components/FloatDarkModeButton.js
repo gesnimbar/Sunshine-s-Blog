@@ -1,9 +1,9 @@
 import { useGlobal } from '@/lib/global'
 import { saveDarkModeToCookies } from '@/lib/theme'
-import CONFIG_HEXO from '../config_sunshine'
+import CONFIG_SUNSHINE from '../config_sunshine'
 
 export default function FloatDarkModeButton () {
-  if (!CONFIG_HEXO.WIDGET_DARK_MODE) {
+  if (!CONFIG_SUNSHINE.WIDGET_DARK_MODE) {
     return <></>
   }
 

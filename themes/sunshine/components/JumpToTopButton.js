@@ -1,6 +1,6 @@
 import { useGlobal } from '@/lib/global'
 import React from 'react'
-import CONFIG_HEXO from '../config_sunshine'
+import CONFIG_SUNSHINE from '../config_sunshine'
 
 /**
  * 跳转到网页顶部
@@ -11,7 +11,7 @@ import CONFIG_HEXO from '../config_sunshine'
  * @constructor
  */
 const JumpToTopButton = ({ showPercent = true, percent }) => {
-  if (!CONFIG_HEXO.WIDGET_TO_TOP) {
+  if (!CONFIG_SUNSHINE.WIDGET_TO_TOP) {
     return <></>
   }
   const { locale } = useGlobal()
