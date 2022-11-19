@@ -6,7 +6,7 @@ import Catalog from './Catalog'
 import { InfoCard } from './InfoCard'
 import { AnalyticsCard } from './AnalyticsCard'
 import CONFIG_SUNSHINE from '../config_sunshine'
-import sunshineRecentComments from './sunshineRecentComments'
+import SunshineRecentComments from './SunshineRecentComments'
 import BLOG from '@/blog.config'
 
 /**
