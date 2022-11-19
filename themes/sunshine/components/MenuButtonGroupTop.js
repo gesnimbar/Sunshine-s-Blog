@@ -9,9 +9,9 @@ const MenuButtonGroupTop = (props) => {
 
   let links = [
     { icon: 'fas fa-search', name: locale.NAV.SEARCH, to: '/search', show: CONFIG_SUNSHINE.MENU_SEARCH },
-    { icon: 'fas fa-archive', name: locale.NAV.ARCHIVE, to: '/archive', show: CONFIG_SUNSHINE.MENU_ARCHIVE }
+    { icon: 'fas fa-archive', name: locale.NAV.ARCHIVE, to: '/archive', show: CONFIG_SUNSHINE.MENU_ARCHIVE },
     // { icon: 'fas fa-folder', name: locale.COMMON.CATEGORY, to: '/category', show: CONFIG_SUNSHINE.MENU_CATEGORY },
-    // { icon: 'fas fa-tag', name: locale.COMMON.TAGS, to: '/tag', show: CONFIG_SUNSHINE.MENU_TAG }
+    { icon: 'fas fa-tag', name: locale.COMMON.TAGS, to: '/tag', show: CONFIG_SUNSHINE.MENU_TAG }
   ]
 
   if (customNav) {
