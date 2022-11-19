@@ -85,9 +85,9 @@ const BlogPostCard = ({ post, showSummary }) => {
               <img
                 src={post?.page_cover}
                 alt={post.title}
-                className="max-h-52 lg:max-h-72 w-full hover:scale-105 rounded-t-xl lg:rounded-r-xl lg:rounded-t-none transform object-cover duration-500"
+                className="max-h-52 lg:max-h-72 w-full hover:scale-100 rounded-t-xl lg:rounded-r-xl lg:rounded-t-none transform object-cover duration-500"
               />
-              {/* <Image className='hover:scale-125 rounded-t-xl lg:rounded-r-xl lg:rounded-t-none transform duration-500' src={post?.page_cover} alt={post.title} layout='fill' objectFit='cover' loading='lazy' /> */}
+              {/* <Image className='hover:scale-110 rounded-t-xl lg:rounded-r-xl lg:rounded-t-none transform duration-500' src={post?.page_cover} alt={post.title} layout='fill' objectFit='cover' loading='lazy' /> */}
             </div>
           </Link>
         )}
