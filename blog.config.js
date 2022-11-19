@@ -57,7 +57,7 @@ const BLOG = {
   CONTACT_TWITTER: 'https://twitter.com/gesnimbar',
   CONTACT_GITHUB: 'https://github.com/gesnimbar',
   CONTACT_TELEGRAM: '@gesnimbar',
-  CONTACT_INSTRAGRAM: 'https://www.instagram.com/gesnimbar/'
+  CONTACT_INSTRAGRAM: 'https://www.instagram.com/gesnimbar/',
 
   // 鼠标点击烟花特效
   FIREWORKS: process.env.NEXT_PUBLIC_FIREWORKS || false, // 鼠标点击烟花特效
