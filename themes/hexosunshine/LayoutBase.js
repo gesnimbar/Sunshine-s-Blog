@@ -52,7 +52,7 @@ const LayoutBase = props => {
   }, [show])
 
   return (
-    <div className="bg-hexo-background-gray dark:bg-black">
+    <div className="bg-sunshine-background-gray dark:bg-black">
       <CommonHead meta={meta} siteInfo={siteInfo}/>
 
       <TopNav {...props} />
@@ -72,7 +72,7 @@ const LayoutBase = props => {
       </main>
 
       {/* 右下角悬浮 */}
-      <div className="bottom-12 right-1 fixed justify-end z-20  text-white bg-indigo-500 dark:bg-hexo-black-gray rounded-sm">
+      <div className="bottom-12 right-1 fixed justify-end z-20  text-white bg-indigo-500 dark:bg-sunshine-black-gray rounded-sm">
         <div
           className={
             (show ? 'animate__animated ' : 'hidden') +

@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import CONFIG_HEXO from '../config_sunshine'
+import CONFIG_SUNSHINE from '../config_sunshine'
 import BLOG from '@/blog.config'
 import { useGlobal } from '@/lib/global'
 
@@ -10,7 +10,7 @@ import { useGlobal } from '@/lib/global'
  */
 export default function ArticleRecommend({ recommendPosts, siteInfo }) {
   if (
-    !CONFIG_HEXO.ARTICLE_RECOMMEND ||
+    !CONFIG_SUNSHINE.ARTICLE_RECOMMEND ||
     !recommendPosts ||
     recommendPosts.length === 0
   ) {

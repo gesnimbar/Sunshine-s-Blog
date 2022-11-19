@@ -3,10 +3,10 @@ import { useGlobal } from '@/lib/global'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
-import CONFIG_HEXO from '../config_sunshine'
+import CONFIG_SUNSHINE from '../config_sunshine'
 
 export default function ArticleCopyright () {
-  if (!CONFIG_HEXO.ARTICLE_COPYRIGHT) {
+  if (!CONFIG_SUNSHINE.ARTICLE_COPYRIGHT) {
     return <></>
   }
   const router = useRouter()
