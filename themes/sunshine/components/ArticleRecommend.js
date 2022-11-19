@@ -43,7 +43,7 @@ export default function ArticleRecommend({ recommendPosts, siteInfo }) {
                 className="flex h-40 cursor-pointer overflow-hidden"
               >
                 <div
-                  className="h-full w-full bg-cover bg-center bg-no-repeat hover:scale-110 transform duration-200"
+                  className="h-full w-full bg-cover bg-center bg-no-repeat hover:scale-105 transform duration-200"
                   style={{ backgroundImage: headerImage }}
                 >
                   <div className="flex items-center justify-center bg-black bg-opacity-60 hover:bg-opacity-10 w-full h-full duration-300 ">

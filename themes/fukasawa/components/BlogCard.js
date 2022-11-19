@@ -38,7 +38,7 @@ const BlogCard = ({ post, showSummary }) => {
                 alt={post.title}
                 className="hover:scale-125 transform duration-500"
               ></img>
-              {/* <Image className='hover:scale-105 transform duration-500' src={post?.page_cover} alt={post.title} layout='fill' objectFit='cover' loading='lazy' /> */}
+              {/* <Image className='hover:scale-100 transform duration-500' src={post?.page_cover} alt={post.title} layout='fill' objectFit='cover' loading='lazy' /> */}
             </div>
           </Link>
         )}
