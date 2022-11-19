@@ -9,15 +9,15 @@ module.exports = {
     extend: {
       colors: {
         day: {
-          DEFAULT: BLOG.BACKGROUND_LIGHT || '#ffffff'
+          DEFAULT: BLOG.BACKGROUND_LIGHT || '#E9EEEC'
         },
         night: {
-          DEFAULT: BLOG.BACKGROUND_DARK || '#111827'
+          DEFAULT: BLOG.BACKGROUND_DARK || '#1D2C44'
         },
         hexo: {
-          'background-gray': '#f5f5f5',
-          'black-gray': '#101414',
-          'light-gray': '#e5e5e5'
+          'background-gray': '#57595C',
+          'black-gray': '#8C8F93',
+          'light-gray': '#CFD2D7'
         }
       }
     }
