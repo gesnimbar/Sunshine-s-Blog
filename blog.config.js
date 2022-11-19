@@ -56,7 +56,7 @@ const BLOG = {
   CONTACT_WEIBO: '',
   CONTACT_TWITTER: 'https://twitter.com/gesnimbar',
   CONTACT_GITHUB: 'https://github.com/gesnimbar',
-  CONTACT_TELEGRAM: '@gesnimbar',
+  CONTACT_TELEGRAM: '',
 
   // 鼠标点击烟花特效
   FIREWORKS: process.env.NEXT_PUBLIC_FIREWORKS || false, // 鼠标点击烟花特效
