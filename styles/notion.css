@@ -384,7 +384,7 @@
 
 .notion-title {
   width: 100%;
-  font-size: 25px;
+  font-size: 3em;
   font-weight: 700;
   margin-bottom: 20px;
   line-height: 1.2;
@@ -403,7 +403,7 @@
 }
 
 .notion-h1 {
-  font-size: 1.575em;
+  font-size: 24px;
   margin-top: 1.08em;
   @apply border-b w-full
 }
