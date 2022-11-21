@@ -15,7 +15,7 @@ import 'katex/dist/katex.min.css'
 // waline 评论插件
 import '@waline/client/dist/waline.css'
 
-Waline.init({
+init({
   el: '#waline',
   lang: 'en',
 });
