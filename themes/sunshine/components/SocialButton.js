@@ -13,7 +13,7 @@ const SocialButton = () => {
         <i className='transform hover:scale-125 duration-150 fab fa-github dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>}
       {BLOG.CONTACT_PORTFOLIO && <a target='_blank' rel='noreferrer' title={'portfolio'} href={BLOG.CONTACT_PORTFOLIO} >
-        <i className='transform hover:scale-125 duration-150 fab fa-palette dark:hover:text-indigo-400 hover:text-indigo-600'/>
+        <i className='transform hover:scale-125 duration-150 fas fa-palette dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>}
       {BLOG.CONTACT_TWITTER && <a target='_blank' rel='noreferrer' title={'twitter'} href={BLOG.CONTACT_TWITTER} >
         <i className='transform hover:scale-125 duration-150 fab fa-twitter dark:hover:text-indigo-400 hover:text-indigo-600'/>
