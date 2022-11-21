@@ -13,6 +13,7 @@ import 'prismjs/themes/prism-tomorrow.min.css'
 import 'katex/dist/katex.min.css'
 
 // waline 评论插件
+import { init } from '@waline/client';
 import '@waline/client/dist/waline.css'
 
 init({
