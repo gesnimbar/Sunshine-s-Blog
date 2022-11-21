@@ -7,7 +7,7 @@ const ValineComponent = (props) => {
   const router = useRouter()
   const initValine = (url) => {
     const valine = new Valine({
-      el: '#vcomment',
+      el: '#v-comments',
       appId: BLOG.COMMENT_VALINE_APP_ID,
       appKey: BLOG.COMMENT_VALINE_APP_KEY,
       lang: 'en',
