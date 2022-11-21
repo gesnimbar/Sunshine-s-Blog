@@ -16,10 +16,11 @@ import 'katex/dist/katex.min.css'
 import { init } from '@waline/client'
 import '@waline/client/dist/waline.css'
 
-init({
-  el: '#waline',
-  lang: 'en'
-})
+// init({
+//   el: '#waline',
+//   lang: 'en',
+// })
+//const Waline = init(() => import('@waline/client/dist/waline.css'), { el: '#waline', lang: 'en' })
 
 import dynamic from 'next/dynamic'
 import { GlobalContextProvider } from '@/lib/global'
