@@ -10,7 +10,7 @@ const ValineComponent = (props) => {
       el: '#vcomment',
       appId: BLOG.COMMENT_VALINE_APP_ID,
       appKey: BLOG.COMMENT_VALINE_APP_KEY,
-      lang:'en',
+      lang: 'en',
       avatar: 'hide',
       path: url || router.asPath,
       recordIP: true,
