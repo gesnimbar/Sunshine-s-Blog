@@ -7,11 +7,11 @@ const ValineComponent = (props) => {
   const router = useRouter()
   const initValine = (url) => {
     const valine = new Valine({
-      el: '#v-comments',
+      el: '#vcomment',
       appId: BLOG.COMMENT_VALINE_APP_ID,
       appKey: BLOG.COMMENT_VALINE_APP_KEY,
       lang: 'en',
-      avatar: 'hide',
+      // avatar: 'hide',
       path: url || router.asPath,
       recordIP: true,
       placeholder: BLOG.COMMENT_VALINE_PLACEHOLDER,
