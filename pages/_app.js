@@ -13,14 +13,14 @@ import 'prismjs/themes/prism-tomorrow.min.css'
 import 'katex/dist/katex.min.css'
 
 // waline 评论插件
-import { init } from '@waline/client'
+//import { init } from '@waline/client'
 import '@waline/client/dist/waline.css'
 
 // init({
 //   el: '#waline',
 //   lang: 'en',
 // })
-//const Waline = init(() => import('@waline/client/dist/waline.css'), { el: '#waline', lang: 'en' })
+// const Waline = init(() => import('@waline/client/dist/waline.css'), { el: '#waline', lang: 'en' })
 
 import dynamic from 'next/dynamic'
 import { GlobalContextProvider } from '@/lib/global'
