@@ -15,6 +15,11 @@ import 'katex/dist/katex.min.css'
 // waline 评论插件
 import '@waline/client/dist/waline.css'
 
+Waline.init({
+  el: '#waline',
+  lang: 'en',
+});
+
 import dynamic from 'next/dynamic'
 import { GlobalContextProvider } from '@/lib/global'
 import { DebugPanel } from '@/components/DebugPanel'
