@@ -133,7 +133,7 @@ nav {
 }
 
 .dark .glassmorphism {
-  background: rgba(31, 41, 55, 0.75);
+  background: hsla(0, 0%, 100%, 0.05);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }

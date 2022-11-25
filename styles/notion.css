@@ -895,6 +895,7 @@ svg.notion-page-icon {
   font-size: 14px;
   line-height: 1.4;
   color: var(--fg-color-3);
+  @apply dark:text-gray-400;
 }
 
 .notion-callout {
