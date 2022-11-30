@@ -1,6 +1,6 @@
 const CONFIG_SUNSHINE = {
   HOME_BANNER_ENABLE: true,
-  HOME_BANNER_GREETINGS: ['An interesting soul'], // 首页大图标语文字
+  HOME_BANNER_GREETINGS: ['Discovering the light of my heart, deeper into the divinity of beings'], // 首页大图标语文字
 
   HOME_NAV_BUTTONS: true, // 首页是否显示分类大图标按钮
 
