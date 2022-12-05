@@ -57,7 +57,8 @@ const BLOG = {
   CONTACT_PORTFOLIO: 'https://gesnimbar.studio.site/',
   CONTACT_TWITTER: 'https://mastodon.world/@gesnimbar',
   CONTACT_GITHUB: '',
-  CONTACT_TELEGRAM: '',
+  CONTACT_INSTAGRAM: 'https://www.instagram.com/gesnimbar/',
+  CONTACT_TELEGRAM: 'https://t.me/gesnimbar',
 
   // 鼠标点击烟花特效
   FIREWORKS: process.env.NEXT_PUBLIC_FIREWORKS || false, // 鼠标点击烟花特效
