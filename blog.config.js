@@ -55,7 +55,7 @@ const BLOG = {
   CONTACT_EMAIL: 'engura.alle@gmail.com',
   CONTACT_WEIBO: '',
   CONTACT_PORTFOLIO: 'https://gesnimbar.studio.site/',
-  CONTACT_TWITTER: 'https://mastodon.world/@gesnimbar',
+  CONTACT_TWITTER: 'https://discord.com/invite/yu7TQq5bcH',
   CONTACT_GITHUB: '',
   CONTACT_INSTAGRAM: 'https://www.instagram.com/gesnimbar/',
   CONTACT_TELEGRAM: 'https://t.me/gesnimbar',
