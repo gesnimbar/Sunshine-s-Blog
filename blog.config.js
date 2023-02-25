@@ -59,6 +59,7 @@ const BLOG = {
   CONTACT_GITHUB: '',
   CONTACT_INSTAGRAM: 'https://www.instagram.com/gesnimbar/',
   CONTACT_TELEGRAM: 'https://t.me/gesnimbar',
+  CONTACT_YOUTUBE: 'https://www.youtube.com/@Sunshine_Yang',
 
   // 鼠标点击烟花特效
   FIREWORKS: process.env.NEXT_PUBLIC_FIREWORKS || false, // 鼠标点击烟花特效
